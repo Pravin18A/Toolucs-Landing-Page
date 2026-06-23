@@ -5,8 +5,11 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Geologica', sans-serif;
     background: #000;
+}
+p, span, .subtitle, .description {
+    font-family: 'Inter', sans-serif;
 }
 
 /* HERO SECTION */
@@ -36,72 +39,72 @@ body {
     position: relative;
     z-index: 2;
 
-    max-width: 650px;
+    max-width: 1000px;
 
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 
-    padding: 0 80px 30px;
+     padding: 0 0 80px 150px;
 }
 
 .logo {
     position: absolute;
     top: 40px;
-    left: 60px;
+    left: 130px;
 
     background: url("images/logo.png") no-repeat;
     background-size: contain;
 
-    width: 200px;
+    width: 180px;
     height: 60px;
 
 }
 
 h1 {
     color: white;
-
+    font-family: 'Geologica', sans-serif;
     font-size: 5rem;
     line-height: 0.9;
     font-weight: 800;
-
+    letter-spacing: -5px;
     text-transform: uppercase;
 
     margin-bottom: 30px;
 }
 
 .description {
-    color: #bdbdbd;
+    color: #8F8F8F;
 
     font-size: 1.15rem;
     line-height: 1.8;
 
-    max-width: 600px;
+    max-width: 800px;
 
     margin-bottom: 40px;
 }
 
 .buttons {
     display: flex;
-    gap: 18px;
+    gap: 0px;
 }
 
 .btn {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 8px;
 
     text-decoration: none;
 
-    border-radius: 18px;
+    border-radius: 12px;
 
     transition: .3s;
 }
 
 .btn img {
-    width: 100%;
-    border-radius: 18px;
+    width: 70%;
+    border-radius: 12px;
 }
 
 .btn:hover {
@@ -114,7 +117,7 @@ h1 {
 
 .section-1 {
     background: #000;
-    padding: 40px 0 80px;
+    padding: 40px 0 350px;
 }
 
 .section-1-wrapper {
@@ -220,7 +223,12 @@ h1 {
 
     letter-spacing: 1px;
 }
-
+.gray-line {
+    border: none;
+    height: 1px;
+    background: #272727;
+    margin: 20px 0;
+}
 /* ==========================
    SECTION 2
 ========================== */
@@ -236,7 +244,7 @@ h1 {
 }
 
 .section-label {
-    color: #666;
+    color: #8F8F8F;
     font-size: .85rem;
     letter-spacing: 4px;
     margin-bottom: 28px;
@@ -245,22 +253,22 @@ h1 {
 .section-title {
     color: #fff;
 
-    font-size: 3.4rem;
+    font-size: 2.7rem;
     font-weight: 700;
     line-height: 1.15;
 
-    max-width: 700px;
+    max-width: 1000px;
 
     margin-bottom: 32px;
 }
 
 .section-description {
-    color: #7a7a7a;
+    color: #8F8F8F;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.8;
 
-    max-width: 760px;
+    max-width: 860px;
 
     margin-bottom: 60px;
 }
@@ -278,18 +286,18 @@ h1 {
 
 .info-card h3 {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-weight: 700;
 
     margin-bottom: 24px;
 }
 
 .info-card p {
-    color: #757575;
-    font-size: 1.1rem;
+    color: #8F8F8F;
+    font-size: 1rem;
     line-height: 1.9;
 
-    max-width: 900px;
+    max-width: 1000px;
 }
 
 /* ==========================
@@ -307,7 +315,7 @@ h1 {
 }
 
 .section-3-label {
-    color: #666;
+    color: #8F8F8F;
     font-size: .85rem;
     letter-spacing: 4px;
     margin-bottom: 24px;
@@ -315,12 +323,11 @@ h1 {
 
 .section-3-title {
     color: #fff;
-
-    font-size: 3.4rem;
+    font-size: 2.7rem;
     font-weight: 700;
     line-height: 1.15;
-
-    max-width: 700px;
+    
+    max-width: 1000px;
 
     margin-bottom: 70px;
 }
@@ -340,7 +347,7 @@ h1 {
 
 .section-3-img-container img {
     width: 100%;
-    max-width: 220px;
+    max-width: 200px;
 
     display: block;
     margin: auto auto 20px;
@@ -353,7 +360,7 @@ h1 {
 }
 
 .section-3-img-container p {
-    color: #777;
+    color: #8F8F8F;
     font-size: .95rem;
     line-height: 1.5;
 
@@ -386,7 +393,7 @@ h1 {
 }
 
 .quote-block {
-    background: #101010;
+    background: #0A0A0A;
 
     border-radius: 0 22px 22px 0;
 
@@ -400,7 +407,7 @@ h1 {
 .quote-block p {
     color: #fff;
 
-    font-size: 1.35rem;
+    font-size: 1.2rem;
 
     line-height: 1.8;
 
@@ -413,7 +420,7 @@ h1 {
 
 .section-4 {
     background: #000;
-    padding: 120px 0;
+    padding: 150px 0;
 }
 
 .section-4-wrapper {
@@ -422,7 +429,7 @@ h1 {
 }
 
 .section-4-label {
-    color: #666;
+    color: #8F8F8F;
     font-size: .85rem;
     letter-spacing: 4px;
 
@@ -432,11 +439,11 @@ h1 {
 .section-4-title {
     color: #fff;
 
-    font-size: 3.4rem;
+    font-size: 2.7rem;
     font-weight: 700;
     line-height: 1.15;
 
-    max-width: 700px;
+    max-width: 1000px;
 
     margin-bottom: 50px;
 }
@@ -452,9 +459,9 @@ h1 {
 }
 
 .section-4-card p {
-    color: #767676;
+    color: #8F8F8F;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2;
 
     max-width: 1100px;
@@ -466,7 +473,7 @@ h1 {
 
 .section-5 {
     background: #000;
-    padding: 120px 0;
+    padding: 80px 0;
 }
 
 .section-5-wrapper {
@@ -475,7 +482,7 @@ h1 {
 }
 
 .section-5-label {
-    color: #666;
+    color: #8F8F8F;
     font-size: .85rem;
     letter-spacing: 4px;
     margin-bottom: 24px;
@@ -483,18 +490,18 @@ h1 {
 
 .section-5-title {
     color: #fff;
-    font-size: 3.4rem;
+    font-size: 2.7rem;
     font-weight: 700;
     line-height: 1.15;
-    max-width: 700px;
-    margin-bottom: 50px;
+    max-width: 1000px;
+    margin-bottom: 30px;
 }
 
 .section-5-steps-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 
 .step-card {
@@ -520,20 +527,20 @@ h1 {
 }
 
 .step-card p {
-    color: #757575;
+    color: #8F8F8F;
     line-height: 1.8;
 }
 
 .section-gap {
-    margin-top: 80px;
+    margin-top: 90px;
 }
 
 .section-5-description {
-    color: #8a8a8a;
-    font-size: 1.1rem;
+    color: #8F8F8F;
+    font-size: .95rem;
     line-height: 1.8;
     max-width: 900px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .section-5-card {
@@ -545,15 +552,18 @@ h1 {
 }
 
 .section-5-card ul {
-    color: #8a8a8a;
+    color: #8F8F8F;
     list-style: none;
-    line-height: 2;
+    line-height: 1.9;
     margin-bottom: 24px;
+    font-size: 1rem;
 }
 
 .section-5-card p {
-    color: #8a8a8a;
+    color: #8F8F8F;
     line-height: 1.9;
+    font-size: 1rem;
+    max-width: 1100px;
 }
 
 /* ==========================
@@ -1015,11 +1025,17 @@ h1 {
     .footer {
         padding: 60px 0 30px;
     }
+    .footer{
+        position: relative;
+        background: url(./images/Footer.png) center center no-repeat;
+        background-size: 1200px auto;
+        padding: 100px 0 40px;
+        overflow: hidden;
+    }
 
     .footer-logo {
         width: 220px;
         height: 65px;
-
         margin-bottom: 40px;
     }
 
