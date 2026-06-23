@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toolucs Hero</title>
+
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+
+    <section class="hero">
+
+        <div class="overlay"></div>
+
+        <div class="content">
+
+            <div class="logo"></div>
+
+            <h1>
+                ABOUT US
+            </h1>
+
+            <p class="description">
+                Toolucs - India’s real give-and-take app
+            </p>
+
+            <div class="buttons">
+
+                <a href="#" class="btn playstore">
+                    <img src="image/Play store Button.png" alt="">
+                </a>
+
+                <a href="#" class="btn webapp">
+                    <img src="image/Website Button.png" alt="">
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-1">
+
+        <div class="section-1-wrapper">
+            <h2 class="section-title">
+                Introduction
+            </h2>
+            <div class="info-card">
+                <p>
+                    Toolucs is not another buying-selling app. You aren't "shopping" for a drill or a bag of rice.. You are identifying a resource in your immediate territory and negotiating its use through merit and free choice.
+                </p>
+                <p>
+                    We built Toolucs to bring back the old neighbourhood spirit — but with modern efficiency.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="about-image">
+        <img src="image/about in Intro.png" alt="Community Sharing" />
+    </section>
+
+    <section class="section-2">
+
+        <div class="section-2-wrapper">
+            <div class="info-card">
+                <p>
+                    In every society, apartment, and locality, there are thousands of underused tools, skills, spaces, and other resources. Most of them stay idle while people buy new ones from outside.
+                </p>
+                <p>Toolucs changes that.</p>
+                <p>
+                    It connects you directly with nearby individuals to Give,Take, or exchange Goods, Services, and Cash — creating a hyper-local economy based on trust, abundance, and mutual benefit.
+                </p>
+                <p>No middlemen.<br>
+                   No unnecessary spending.<br>
+                   Just real people, real resources, real merit.<br>
+                </p>
+                <p>
+                    This is more than barter.  This is about widening your territory, increasing your options, and restoring freedom of choice in your daily life.
+                </p>
+                <p>Toolucs — Because everything you need is already nearby.</p>
+            </div>
+        </div>
+    </section>
+   <section class="philosophy">
+    <h2>Our Core Philosophy</h2>
+
+    <div class="slider">
+        <img class="slide active" src="image/Our Core Philosophy.png" alt="Slide 1">
+        <img class="slide" src="image/Slider-2.jpg" alt="Slide 2">
+        <img class="slide" src="image/Slider-3.jpg" alt="Slide 3">
+        <img class="slide" src="image/Slider-4.jpg" alt="Slide 4">
+    </div>
+
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+    <p>[Image: Sentinelese receiving coconuts in exchange for information with researchers]</p>
+</section>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".slide");
+    const dots = document.querySelectorAll(".dot");
+
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove("active"));
+        dots.forEach(dot => dot.classList.remove("active"));
+
+        slides[index].classList.add("active");
+        dots[index].classList.add("active");
+    }
+
+    setInterval(() => {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }, 2000);
+});
+</script>
+<section class="section-3">
+        <div class="section-3-wrapper">
+            <div class="info-card">
+                <p>
+                  From the Stone Age to modern urban civilization, humans have always been exchanging goods and services. Somewhere along the line, we traded our physical agility and rapid exchange instincts for rigid corporate structures. Toolucs is here to break those cages and bring back untamed, fluid exchange opportunities directly between individuals.</p>
+                <p>
+                 We didn’t build Toolucs to be just another marketplace app. We built it to architect a territorial resource system—one that violently shifts humanity from a "Tamed" state of artificial, man-made scarcity to a "Wild" state of optimized, infinite supply.
+                </p>
+            </div>
+        </div>
+    </section>
